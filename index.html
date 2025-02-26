@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Daniel Campregher Junior</title>
+    <style>
+        body {
+            font-family: 'Fira Code', monospace;
+            background-color: #1E1B2E;
+            color: #E0D0FF;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: #2C234A;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            color: #E0D0FF;
+        }
+        header {
+            background: #2C234A;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            color: #E0D0FF;
+            font-size: 1.2em;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #9D76C1;
+            text-align: center;
+            font-size: 3em;
+        }
+        h1::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        h2 {
+            color: #C7A4FF;
+            text-align: center;
+        }
+        p {
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .center {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: #D4AFFF;
+            font-weight: bold;
+            transition: 0.3s;
+            text-align: center;
+        }
+        a:hover {
+            color: #F5D0FF;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #7D5BA6;
+            color: white;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #9D76C1;
+        }
+        img {
+            display: block;
+            height: 200px;
+            width: 200px;
+            margin: 20px auto;
+            border-radius: 50%;
+            border: 3px solid #9D76C1;
+        }
+        .img2 {
+            display: block;
+            height: 200px;
+            width: 250px;
+            margin: 20px auto;
+            border-radius: 20px;
+            border: 3px solid #9D76C1;
+        }
+        hr {
+            border: 1px solid #9D76C1;
+            margin: 20px 0;
+        }
+        .code-box {
+            background: #302B4F;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: monospace;
+            color: #E0D0FF;
+            overflow-x: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        Daniel Campregher Junior - Desenvolvedor e Cientista de Dados
+    </header>
+    <div class="container" style="margin-top: 80px;">
+        <h1>Daniel Campregher Junior</h1>
+        <img src="/campeao.jpg" alt="eu e minha familia levantando a taça de campeão">
+        
+        <p class="center">Olá, seja bem-vindo ao meu portfólio!<br>Tenho 17 anos, moro em Guaramirim e estudo Ciência de Dados e Desenvolvimento de Sistemas no Cedup.</p>
+        <hr>
+        <h2>Sobre Mim</h2>
+        <p>Sou um apaixonado por tecnologia e programação. Atualmente, estudo <strong>Ciência de Dados</strong> e <strong>Desenvolvimento de Sistemas</strong>.
+        Gosto de explorar novas linguagens e frameworks, buscando sempre aprimorar minhas habilidades.
+        <br> Comecei a me aprofundar na área de programação no ano passado onde comecei o ensino médio técnico em ciência de dadose juntamente no período noturno o curso técnico de Desenvolvimento de Sistemas.
+        Porém essa paixão vem de berço, meu pai trabalhou nessa área a vida inteira, me passou muitos conhecimentos, ideias, livros e bate-papos que agregam muito na minha vida acadêmica e profissional. 
+        </p>
+        <p>Além da programação, sou um grande fã de futebol e cultura brasileira. Meu gosto musical inclui artistas como Chorão, Gal Costa e Djavan.</p>
+        <hr>
+        <h2>Projetos</h2>
+        <p>
+            No começo de 2024 comecamos um projeto chamado AquaVac, Desenvolvimento de um dispositivo para captação, tratamento e reuso de água em áreas alagadas. Consistia em um robô carrinho que tinha a funcionalidade de 
+            captar agua de lugares alagados e trata-la.<br> Nele consegui algumas habildades, tanto de hardware como de software. Hardware como arduino que foi a base do robô, motores, ponte H (responsável pelo controle dos motores).<br>
+            E de software valências de programaçlão em C++ para ajustes de codigo no arduino.
+        </p>
+        <img class="img2" src="/vivo.jpg" alt="Foto das premiações da vivo"></img>
+        <p>
+            Ainda em 2024 participei do Desafio de Dados da Telefônica Vivo, no qual eu e minha equipe fomos premiados com o 2º lugar, ficando apenas 5 pontos de gabaritar. Nesse desafio foram 500 equipes do Brasil inteiro
+            o tal foi dividido em duas etapas sendo a primeira três questionarios sobre: Logica de programação, transformação digital e aramzenamento e manipulação de dados.<br> Na etapa em questão, minha equipe ficou em segundo 
+            lugar geral errando apenas uma questão dos três gabaritos.<br>
+            Já na segunda deveriamos criar um projeto que ajudasse a saúde mental das pessoas, pensando nisso criamos o <em> Dialoga</em>, um projeto onde tem a proposta de ser uma plataforma acolhedora onde estudantes do ensino médio possam se abrir, desabafar e encontrar apoio emocional
+            <br> <br>
+            
+            
+        </p>
+        <p class="center"><a href="https://sites.google.com/estudante.sed.sc.gov.br/dialoga/introdu%C3%A7%C3%A3o" class="button"><strong>Site com mais informações do projeto</strong></a></p>
+        <p class="center"><a href="https://www.youtube.com/watch?v=8IjRplEwPm8" class="button"><strong>Descrição em vídeo do projeto</strong></a></p>
+
+        <hr>
+        <h2>Habilidades</h2>
+        <div class="code-box">
+            <p>• Python | C++ | JavaScript</p>
+            <p>• HTML & CSS (Design Responsivo)</p>
+            <p>• Banco de Dados SQL</p>
+            <p>• Ciência de Dados e Machine Learning</p>
+        </div>
+        <hr>
+        <h2>Contato</h2>
+        <p class="center"><a href="https://www.linkedin.com/in/daniel-campregher-junior-101482352" class="button">Meu Linkedin</a></p>
+        <hr>
+    </div>
+</body>
+</html>
